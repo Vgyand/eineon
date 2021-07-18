@@ -1,11 +1,12 @@
 import React from 'react';
+import style from './UpperHeader.module.sass'
 
 const UpperHeader = () => {
   return (
-    <div className="wrapper-upperHeader">
+    <div className={style.wrapper_UpperHeader}>
       <div className="container">
         <div className="row">
-          <p className="upperHeader-item col-sm-5">
+          <p className="upperHeader-item col-sm-5" >
             Производство сварочного оборудования и источников питания марки NEON
           </p>
           <p className="upperHeader-item col-sm-2">
